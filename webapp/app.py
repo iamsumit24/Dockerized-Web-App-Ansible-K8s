@@ -21,7 +21,7 @@ def health():
 def info():
     return jsonify(
         service="Flask Docker App via Ansible",
-        author="Priyam Sanodiya",
+        author="Sumit Tiwari",
         host=socket.gethostname()
     )
 

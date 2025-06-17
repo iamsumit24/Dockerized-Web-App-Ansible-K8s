@@ -14,7 +14,7 @@ spec:
          app: webapp
      spec:
        containers:
-         - image: priyam930/ansible-dockerized-app:latest
+         - image: sumittiwari2025/ansible-dockerized-app:latest
            name: webapp-deploy
            ports:
            - containerPort: 5000
